@@ -1,0 +1,43 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "info": {
+      "en-US": {
+        "title": "GreenTechCycle Scanner",
+        "subtitle": "ITAD Device Scanner",
+        "description": "Mobile application for ITAD field technicians. Scan barcodes and QR codes of IT equipment, view asset records, register new devices, and sync with the GreenTechCycle Command Center.\n\nKey Features:\n- Barcode and QR code scanning\n- Asset intake and registration\n- Real-time sync with Command Center\n- Offline-capable with auto-sync\n- Secure authentication",
+        "keywords": "ITAD,scanner,barcode,QR,asset,recycling,IT,device,inventory,green tech",
+        "privacyPolicyUrl": "https://charlie-five.vercel.app/privacy-policy",
+        "supportUrl": "https://charlie-five.vercel.app/privacy-policy"
+      },
+      "fr-FR": {
+        "title": "GreenTechCycle Scanner",
+        "subtitle": "Scanner de devices IT",
+        "description": "Application mobile pour les techniciens ITAD. Scannez les codes-barres et QR codes des équipements IT, consultez les fiches assets, enregistrez de nouveaux appareils et synchronisez avec le Command Center GreenTechCycle.\n\nFonctionnalités principales:\n- Scan de codes-barres et QR codes\n- Prise en charge et enregistrement d'assets\n- Synchronisation en temps réel avec le Command Center\n- Mode hors-ligne avec synchronisation automatique\n- Authentification sécurisée",
+        "keywords": "ITAD,scanner,code-barres,QR,asset,recyclage,IT,appareil,inventaire,green tech",
+        "privacyPolicyUrl": "https://charlie-five.vercel.app/privacy-policy",
+        "supportUrl": "https://charlie-five.vercel.app/privacy-policy"
+      }
+    },
+    "categories": ["BUSINESS", "PRODUCTIVITY"],
+    "copyright": "2026 GreenTechCycle"
+  },
+  "android": {
+    "info": {
+      "en-US": {
+        "title": "GreenTechCycle Scanner",
+        "shortDescription": "ITAD device scanner for field technicians",
+        "fullDescription": "Mobile application for ITAD field technicians. Scan barcodes and QR codes of IT equipment, view asset records, register new devices, and sync with the GreenTechCycle Command Center.\n\nKey Features:\n- Barcode and QR code scanning\n- Asset intake and registration\n- Real-time sync with Command Center\n- Offline-capable with auto-sync\n- Secure authentication"
+      },
+      "fr-FR": {
+        "title": "GreenTechCycle Scanner",
+        "shortDescription": "Scanner de devices IT pour techniciens terrain",
+        "fullDescription": "Application mobile pour les techniciens ITAD. Scannez les codes-barres et QR codes des équipements IT, consultez les fiches assets, enregistrez de nouveaux appareils et synchronisez avec le Command Center GreenTechCycle.\n\nFonctionnalités principales:\n- Scan de codes-barres et QR codes\n- Prise en charge et enregistrement d'assets\n- Synchronisation en temps réel avec le Command Center\n- Mode hors-ligne avec synchronisation automatique\n- Authentification sécurisée"
+      }
+    },
+    "category": "BUSINESS",
+    "contactEmail": "mahdibouaraba@gmail.com",
+    "privacyPolicyUrl": "https://charlie-five.vercel.app/privacy-policy",
+    "defaultLanguage": "fr-FR"
+  }
+}
