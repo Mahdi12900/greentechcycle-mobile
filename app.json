@@ -15,6 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.greentechcycle.scanner",
+      "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "GreenTechCycle needs camera access to scan device barcodes and QR codes.",
         "NSPhotoLibraryUsageDescription": "GreenTechCycle needs photo library access to attach device photos."
@@ -28,7 +29,8 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.greentechcycle.scanner",
-      "permissions": ["CAMERA"]
+      "versionCode": 1,
+      "permissions": ["CAMERA", "INTERNET", "ACCESS_NETWORK_STATE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
