@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "GreenTechCycle Scanner",
+    "slug": "greentechcycle-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.greentechcycle.scanner",
+      "infoPlist": {
+        "NSCameraUsageDescription": "GreenTechCycle needs camera access to scan device barcodes and QR codes.",
+        "NSPhotoLibraryUsageDescription": "GreenTechCycle needs photo library access to attach device photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.greentechcycle.scanner",
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "GreenTechCycle needs camera access to scan device barcodes and QR codes."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
