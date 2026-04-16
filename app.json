@@ -30,7 +30,13 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.greentechcycle.scanner",
       "versionCode": 1,
-      "permissions": ["CAMERA", "INTERNET", "ACCESS_NETWORK_STATE"]
+      "permissions": [
+        "CAMERA",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -43,6 +49,12 @@
         }
       ],
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4c2b3f84-1992-43f1-83de-743e6698bd5e"
+      }
+    },
+    "owner": "mahdibouaraba"
   }
 }
